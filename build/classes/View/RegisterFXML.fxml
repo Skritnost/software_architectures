@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="345.0" prefWidth="327.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="Controller.RegisterFXMLController">
+   <children>
+      <TextField fx:id="txtPass" layoutX="89.0" layoutY="138.0" promptText="Password" />
+      <TextField fx:id="txtName" layoutX="89.0" layoutY="60.0" promptText="Name" />
+      <TextField fx:id="txtLogin" layoutX="89.0" layoutY="101.0" promptText="Login" />
+      <Button fx:id="btnCreate" layoutX="111.0" layoutY="211.0" mnemonicParsing="false" onAction="#onClickCreateBtn" text="Create Company" />
+      <ChoiceBox fx:id="choiceBType" layoutX="89.0" layoutY="171.0" prefWidth="150.0" />
+      <Label fx:id="lblRegistration" alignment="CENTER" layoutX="111.0" layoutY="25.0" prefHeight="25.0" prefWidth="105.0" text="Registration" />
+      <Label fx:id="lblAnswer" alignment="CENTER" layoutX="44.0" layoutY="293.0" prefHeight="25.0" prefWidth="241.0" />
+      <Button fx:id="btnAuth" layoutX="111.0" layoutY="255.0" mnemonicParsing="false" onAction="#onCLickAuthButton" prefHeight="25.0" prefWidth="105.0" text="Authentication" />
+   </children>
+</AnchorPane>
